@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cantril SAA/Multi-Factor Authentication (MFA).md",
+                "file": "Cantril SAA/Identity and Access Management (IAM) Basics.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cantril SAA/Multi-Factor Authentication (MFA).md",
+                "file": "Cantril SAA/Identity and Access Management (IAM) Basics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cantril SAA/Multi-Factor Authentication (MFA).md",
+                "file": "Cantril SAA/Identity and Access Management (IAM) Basics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cantril SAA/Multi-Factor Authentication (MFA).md"
+                "file": "Cantril SAA/Identity and Access Management (IAM) Basics.md"
               }
             }
           }
@@ -149,8 +149,11 @@
   },
   "active": "80243547e367815e",
   "lastOpenFiles": [
-    "Cantril SAA/AWS Accounts.md",
+    "Cantril SAA/Pasted image 20240916190523.png",
+    "Cantril SAA/IAM Full Trust.png",
     "Cantril SAA/Multi-Factor Authentication (MFA).md",
+    "Cantril SAA/Identity and Access Management (IAM) Basics.md",
+    "Cantril SAA/AWS Accounts.md",
     "test.md",
     "Cantril SAA",
     "Terraform Init.md",

@@ -1,0 +1,25 @@
+#iam #aws_iam #identity_and_access_management
+
+- `Least Privledge Access` - give only enough permissions required to do a job or perform a task
+- `IAM` 
+	- always secure across all AWS regions
+	- Everyone AWS account has it's own IAM and has full trust from account
+	- ![[Pasted image 20240916185959.png]]
+	- Three Different Types of Identity Objects
+		- User
+			- Humans or applications that need access to account
+		- Group
+			- Collection of related users (dev team, HR, etc)
+		- Role
+			- Can be used by **AWS Services** or for granting **external access** to account
+		- ![[Pasted image 20240916190523.png]]
+	- `Policy` - Allow or Deny access to AWS Services
+- IAM Basics
+	- Manages Identities (ID provider (IDP))
+	- Authenticate (Prove who you claim to be)
+	- Authorize (Allow or Deny access)
+	- No cost (FREE)
+	- Global service / Global resilience
+	- ALLOW or DENY its identities on its AWS account
+	- No direct control on external accounts or users
+	- Identity federation and MFA
