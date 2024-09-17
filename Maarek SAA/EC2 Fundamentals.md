@@ -1,0 +1,33 @@
+#ec2 #aws_ec2
+
+- Amazon EC2
+	- Most Popular AWS offering
+	- `EC2` = Elastic Compute Cloud = Infrastructure as a Service
+	- Capabilities
+		- Renting virtual machines (EC2)
+		- Storing data on virtual drives (EBS)
+		- Distributing load across machines (ELB)
+		- Scaling the services using an auto-scaling group (ASG)
+- EC2 sizing & configuration options
+	- Operating System
+		- Linux, Windows, Mac OS
+	- CPU
+	- RAM
+	- Storage Space
+	- Network
+	- Firewall Rules
+	- Bootstrap script (configure at launch)
+- EC2 User Data
+	- possible to bootstrap using an EC2 User data
+	- `bootstrapping` - launching commands when a machine starts
+	- script is only ran once at first start
+	- EC2 user data can automate boot tasks
+		- Installing updates
+		- Installing software
+		- Downloading common files from the internet
+		- Anything you can think of
+	- EC2 user data script runs with root user
+- EC2 instance types: example
+	- ![[Pasted image 20240917184242.png]]
+	- t2.micro is FREE 
+- 
