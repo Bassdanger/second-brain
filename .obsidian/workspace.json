@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Maarek SAA/EC2 Fundamentals.md",
+                "file": "Maarek SAA/SSH Overview.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Maarek SAA/EC2 Fundamentals.md",
+                "file": "Maarek SAA/SSH Overview.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Maarek SAA/EC2 Fundamentals.md",
+                "file": "Maarek SAA/SSH Overview.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Maarek SAA/EC2 Fundamentals.md"
+                "file": "Maarek SAA/SSH Overview.md"
               }
             }
           }
@@ -149,9 +149,18 @@
   },
   "active": "80243547e367815e",
   "lastOpenFiles": [
+    "Maarek SAA/Pasted image 20240917194612.png",
+    "Maarek SAA/Security Groups & Classic Ports Overview.md",
+    "Maarek SAA/SSH Overview.md",
+    "Maarek SAA/Pasted image 20240917193136.png",
+    "Maarek SAA/Pasted image 20240917192635.png",
+    "Maarek SAA/Pasted image 20240917192458.png",
+    "Maarek SAA/Pasted image 20240917192255.png",
+    "Maarek SAA/EC2 Instance Types Basics.md",
+    "Maarek SAA/Pasted image 20240917190814.png",
+    "Maarek SAA/EC2 Fundamentals.md",
     "Maarek SAA/Pasted image 20240917184242.png",
     "Cantril SAA/Lesson Tracker.md",
-    "Maarek SAA/EC2 Fundamentals.md",
     "Maarek SAA",
     "Cantril SAA/Cloud Computing.md",
     "Cantril SAA/Pasted image 20240916202247.png",
@@ -161,7 +170,6 @@
     "Cantril SAA/IAM Full Trust.png",
     "Cantril SAA/Multi-Factor Authentication (MFA).md",
     "Cantril SAA/Identity and Access Management (IAM) Basics.md",
-    "Cantril SAA/Pasted image 20240916190523.png",
     "Cantril SAA/AWS Accounts.md",
     "test.md",
     "Cantril SAA",

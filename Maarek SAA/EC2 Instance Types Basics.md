@@ -1,0 +1,34 @@
+#aws_ec2 #ec2 #ec2_instance_types
+
+- You can use different types of EC2 instances for different use cases
+- AWS has the following naming convention
+	- ![[Pasted image 20240917190814.png]]
+- EC2 Instance Types
+	- General Purpose
+		- Great for a diversity of workloads such as web servers, code repositories
+		- Balance between
+			- Compute
+			- Memory
+			- Networking
+		- t2.micro is general purpose ec2 instance
+	- Compute Optimized
+		- Great for compute-intensive tasks that requires high performance processors
+			- Batch processing workloads
+			- Media transcoding
+			- High performance web servers
+			- High performance computing
+			- Scientific modeling and machine learning
+			- Dedicated gaming servers
+	- Memory Optimized
+		- Fast performance for workloads that process large data sets in memory
+			- High performance relational/non-relational databases
+			- Distributed web scale cache stores
+			- In-memory databases optimized for BI
+			- Applications performing real-time processing of big unstructured data
+	- Storage Optimized
+		- great for storage-intensive tasks, read and write access to large data sets on local storage
+			- High frequency online transaction processing (OLTP) systems
+			- Relational & NoSQL databases
+			- Cache for in-memory databases
+			- Data warehousing applications
+			- Distributed file systems 
