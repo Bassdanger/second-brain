@@ -1,0 +1,35 @@
+#encryptiohn 
+
+- Encryption Approaches
+	- Encryption At Rest
+	- Encryption In Transit
+	- ![[Pasted image 20240918181707.png]]
+- Encryption Concepts
+	- Plaintext
+	- Algorithm
+	- Key
+	- Ciphertext
+	- ![[Pasted image 20240918181926.png]]
+- Symmetric Encryption
+	- aes-256 is an algorithm that needs a key
+	- great for local stuff but not for transferring between two remote parties, or time sensitive
+	- ![[Pasted image 20240918182406.png]]
+- Asymmetric Encryption
+	- public key gets the ciphertext , the private key can decrypt the dame 
+	- public gets uploaded to cloud for anyone to access it
+	- public key encrypts data and turns plaintext to ciphertext
+	- once the ciphertext is sent the private key which only one person has can open it
+	- ![[Pasted image 20240918182853.png]]
+	- computation is much more difficult so it's usually only use for first time communication 
+- Signing
+	- Also uses Asymmetric keys 
+		- Sender uses private key to sign message and send it
+		- Receiver can use public key from sender to verify it came from sender by looking at if private key signed it
+		- ID verification, log in
+		- ![[Pasted image 20240918183613.png]]
+	- Steganography
+		- Hiding data in an image or anything
+		- Basically hidden data being sent
+		- Uses algorithms to do so
+		- ![[Pasted image 20240918184052.png]]
+	- 

@@ -1,0 +1,29 @@
+#cloud_service_models 
+
+- Terms & Concepts
+	- Infrastructure Stack
+		- ![[Pasted image 20240918172820.png]]
+		- Parts you **manage**
+		- Parts managed by the **vendor**
+		- Unit of consumption
+- On-Premises vs DC Hosted (Data Center Hosted)
+	- All services models are just evolutions of this model
+	- DC hosted is Facilities rented out such as a data center
+- Infrastructure As A Service (IaaS)
+	- Still have to mange the O/S and anything above
+	- Consume O/S
+	- Pay per second, per minute, or per hour fee
+	- Only pay when you use VM
+	- Most popular
+	- Lose a little flexibility, but a substantial cost reduction
+- Platform As A Service (PaaS)
+	- Aimed at developers
+	- application running on a provided run time environment
+	- Example: Heroku
+	- Will handle everything besides your application
+- Software As A Service (SaaS)
+	- You only consume the application
+	- You get it as a service
+	- Example: Netflix, Gmail, etc
+	- Many companies save money as using an email as a SAAS service 
+- ![[Pasted image 20240918174118.png]]

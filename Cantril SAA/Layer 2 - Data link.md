@@ -1,0 +1,41 @@
+#data_link #data_link_layer
+
+- most critical layer of the OSI 7 layer model
+- data link layer lies over layer 1, needs the physical layer to operate 
+- ethernet
+- frames - format for sending information over a layer 2 network
+- mac address is introduced here, not software assigned, uniquely attached to a piece of hardware 
+- layer 2 provides frames and other things, layer 2 handles the physical transition and reception of the shared medium
+- layer 1 does not understand what a frame is, it just sends and receives it
+- the payload in the frame is provided by layer 3 
+- ![[Pasted image 20240918191338.png]]
+- CSMA/CD
+	- Layer 2 controls how the data is sent to prevent collisions in layer 1
+	- ![[Pasted image 20240918191549.png]]
+	- CSMA looks for a Carrier signal, basically meaning it's looking if a message is already being sent before sending it off to Layer 1
+	- If a carrier signal is detected it will wait before sending a frame
+	- Mac addresses allow for machine to machine communication]
+	- Layers are independent, they only see each other even if it is using a lower layer
+	- What happens if both machines check for a carrier signal then send at the same time, then a collision happens! Layer 2
+	- If a collision is detected then a jam signal is send and a backoff period occurs when no one sends. This is what CD handles. If it happens again, the backoff period happens again but for a longer period.
+	- HUB
+		- Hubs are layer 1 devices 
+		- Everyone will get the frame but only the desired recipient will keep it while the others discard it
+		- One collison can cause all the devices to experience a collision and be repeated
+		- A switch can prevent this 
+		- ![[Pasted image 20240918192855.png]]
+	- SWITCH 
+		- Switches are a layer 2 device
+		- Switches understand frames and MAC Addresses.
+		- Uses a MAC Address Table
+		- Sends based on the address
+		- Will only operate on one port so it won't crash the whole thing with collisions
+		- Will store and forward frames
+		- **![[Pasted image 20240918193305.png]]**
+- Identifiable devices
+- Media access control (sharing)
+- Collison Detection
+- Unicast 1 on 1 communication
+- Broadcast 1 to all
+- Switches - Hubs with super powers ]
+- Everything else builds on layer 2
