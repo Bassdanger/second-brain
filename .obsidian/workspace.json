@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Maarek SAA/Spot Instances & Spot Fleet.md",
+                "file": "Nana DevOps Bootcamp/Introduction to AWS CLI.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Maarek SAA/Spot Instances & Spot Fleet.md",
+                "file": "Nana DevOps Bootcamp/Introduction to AWS CLI.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Maarek SAA/Spot Instances & Spot Fleet.md",
+                "file": "Nana DevOps Bootcamp/Introduction to AWS CLI.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Maarek SAA/Spot Instances & Spot Fleet.md"
+                "file": "Nana DevOps Bootcamp/Introduction to AWS CLI.md"
               }
             }
           }
@@ -147,10 +147,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d9cfcbad150bca5f",
+  "active": "6ac697c45cd775bb",
   "lastOpenFiles": [
-    "Maarek SAA/EC2 Instances Purchasing Options.md",
     "Maarek SAA/Spot Instances & Spot Fleet.md",
+    "Nana DevOps Bootcamp/Introduction to AWS CLI.md",
+    "Nana DevOps Bootcamp",
+    "Maarek SAA/EC2 Instances Purchasing Options.md",
     "Maarek SAA/Pasted image 20240920105101.png",
     "Maarek SAA/Pasted image 20240920105029.png",
     "Maarek SAA/Pasted image 20240920104536.png",
@@ -184,7 +186,6 @@
     "Cantril SAA/YAML (aint't markup language).md",
     "Cantril SAA/Public vs Private vs Hybrid vs Multi Cloud.md",
     "Cantril SAA/Identity and Access Management (IAM) Basics.md",
-    "Cantril SAA/Multi-Factor Authentication (MFA).md",
     "Maarek SAA",
     "Cantril SAA",
     "project/terraform",
