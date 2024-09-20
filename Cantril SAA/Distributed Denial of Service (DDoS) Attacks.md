@@ -1,0 +1,27 @@
+#DDoS #distributed_denial_of_sevice_attacks
+
+- Attacks designed to overload websites
+- Compete against legitimate connections
+- Distributed - hard to block individual IPs/Ranges
+- Three Types
+	- Application Layer - HTTP Flood
+	- Protocol Attack - SYN Flood
+	- Volumetric - DNS Amplification
+	- often orchestrated by one or more people with large armies of compromised machines (botnets)
+- DDoS Normal
+	- ![[Pasted image 20240919210529.png]]
+- DDoS Application Layer Attack
+	- Basically overwhelms servers with a whole lot of bots along with regular users trying to use it as well
+	- ![[Pasted image 20240919210811.png]]
+- DDoS Protocol Attack SYN FLOODS
+	- A botnet generates a huge numbers of SYNs to initiate a connection using a spoofed IP address
+	- The server should respond with ACK but there will be nothing on the receiving end so it will never get the response from the bots so the legit connections from users won't work. It will be stuck waiting for an ACK back
+	- Three way handshake is compromised 
+	- ![[Pasted image 20240919211103.png]]
+- DDoS Volumetric / Amplification Attack
+	- The size of the botnet can be much smalleer
+	- A botnet exploits a protocol where a response is significantly larger than the request. In this case making a spoofed request to DNS.
+	- Users will experience degraded level of performance
+	- ![[Pasted image 20240919211314.png]]
+	- Ideal for taking down larger websites and applications
+- DDoS can't be combatted with normal network protections

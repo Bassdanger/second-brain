@@ -1,0 +1,42 @@
+#ip_addressing #subnetting #ipv4_addressing 
+
+- IPv4 standard created in 1981 RFC791
+- 0.0.0.0 -> 255.255.255.255 = 4,294,967,296 Addresses
+- Originally, directly managed by IANA
+- Internet Assigned Numbers Authority
+- Parts now delegated to regional authorities
+- All public IPv4 addressing is allocated
+- Part of the address space is private ... can be used/reused freely
+- IPv4 Address  Space
+	- Class A address space Start 0.0.0.0 to 127.255.255.255
+		- Contains 128 networks
+		- Generally used for huge networks like apple, government, military, etc in the early days of the internet, but has since been giving up 
+	- Class B Start 128.0.0.0 to 191.255.255.255
+		- 16,384 networks
+		- was used for larger businesses that didn't need class A space
+	- Class C Start 192.0.0.0 to 223.255.255.255
+		- Historically was used for small businesses that weren't large enough for the other two
+	- There is also class D and class E
+	- ![[Pasted image 20240919203837.png]]
+- Defined by a standard RFC1918
+- 10.0.0.0 - 10.255.255.255 (1 x Class A network) private ranged usually used by cloud networks
+- 16,777,216 IPv4 addresses
+- 172.16.0.0 - 172.31.255.255 (16 x Class B networks)
+- 16 x 65,536 IPv4 Addresses
+- 192.168.0.0 - 192.168.255.255 (256 x Class C networks) home and small office networks
+- 256 x 256 IPv4 Addresses
+- Also aim to allocate non overlapping ranges
+- IPv4 Address Space
+	- IPv4 space ain't shit compared to IPv6 space
+	- ![[Pasted image 20240919204522.png]]\
+- IP Subnetting
+	- /16 for example
+	- /16 is the prefix of the IP address
+	- /16 becomes 2 * 2/17 split into 2
+	- you can even make it smaller to be two /18 networks
+	- Networks are usually split into 2, 4, 8...
+	- While unusual, odd number splits are valid
+	- Subnetting is the process of taking a larger network, and breaking it into more smaller networks (higher prefix)
+	- ![[Pasted image 20240919205343.png]]
+	- ![[Pasted image 20240919205654.png]]
+

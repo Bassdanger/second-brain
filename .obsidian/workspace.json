@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cantril SAA/Encryption.md",
+                "file": "Cantril SAA/SSL and TLS.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cantril SAA/Encryption.md",
+                "file": "Cantril SAA/SSL and TLS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cantril SAA/Encryption.md",
+                "file": "Cantril SAA/SSL and TLS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cantril SAA/Encryption.md"
+                "file": "Cantril SAA/SSL and TLS.md"
               }
             }
           }
@@ -149,28 +149,32 @@
   },
   "active": "6ac697c45cd775bb",
   "lastOpenFiles": [
+    "Cantril SAA/Pasted image 20240919212724.png",
+    "Cantril SAA/Distributed Denial of Service (DDoS) Attacks.md",
+    "Cantril SAA/SSL and TLS.md",
+    "Cantril SAA/Pasted image 20240919211314.png",
+    "Cantril SAA/Pasted image 20240919211103.png",
+    "Cantril SAA/Pasted image 20240919210811.png",
+    "Cantril SAA/Pasted image 20240919210529.png",
+    "Cantril SAA/IP Addressing & Subnetting.md",
+    "Cantril SAA/Pasted image 20240919205654.png",
+    "Cantril SAA/Pasted image 20240919205343.png",
+    "Cantril SAA/Pasted image 20240919204522.png",
+    "Cantril SAA/Pasted image 20240919204453.png",
+    "Cantril SAA/Pasted image 20240919203837.png",
+    "Cantril SAA/Lesson Tracker.md",
+    "Cantril SAA/Networking Starter Pack.md",
+    "Cantril SAA/Encryption.md",
     "Cantril SAA/Decimal to Binary and Back.md",
     "Cantril SAA/Cloud Service Models.md",
     "Cantril SAA/Cloud Computing.md",
     "Cantril SAA/AWS Accounts.md",
-    "Cantril SAA/Lesson Tracker.md",
     "Cantril SAA/Network Address Translation (NAT).md",
     "Cantril SAA/Pasted image 20240919195000.png",
-    "Cantril SAA/Pasted image 20240919194550.png",
     "Cantril SAA/Layer 4 - Transport.md",
-    "Cantril SAA/Pasted image 20240919193317.png",
-    "Cantril SAA/Pasted image 20240919192920.png",
-    "Cantril SAA/Pasted image 20240919192446.png",
-    "Cantril SAA/Pasted image 20240919190531.png",
     "Cantril SAA/Layer 3 -Network.md",
-    "Cantril SAA/Pasted image 20240919185103.png",
-    "Cantril SAA/Pasted image 20240919184344.png",
-    "Cantril SAA/Pasted image 20240919183835.png",
-    "Cantril SAA/Pasted image 20240919183129.png",
     "Cantril SAA/Layer 2 - Data link.md",
     "Cantril SAA/Layer 1 - Physical.md",
-    "Cantril SAA/Networking Starter Pack.md",
-    "Cantril SAA/Encryption.md",
     "Cantril SAA/JavaScript Object Notation (JSON).md",
     "Cantril SAA/YAML (aint't markup language).md",
     "Cantril SAA/Public vs Private vs Hybrid vs Multi Cloud.md",
@@ -182,10 +186,7 @@
     "Maarek SAA/EC2 Fundamentals.md",
     "Maarek SAA",
     "Cantril SAA/IAM Access Keys.md",
-    "test.md",
     "Cantril SAA",
-    "Terraform Init.md",
-    "Welcome.md",
     "project/terraform",
     "project"
   ]

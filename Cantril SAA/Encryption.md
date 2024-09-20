@@ -32,4 +32,3 @@
 		- Basically hidden data being sent
 		- Uses algorithms to do so
 		- ![[Pasted image 20240918184052.png]]
-	- 
