@@ -1,0 +1,29 @@
+#nat #network_address_translation
+
+- NAT is designed to overcome IPv4 shortages
+- also provides some security benefits
+- Translates Private IPv4 addresses to Public
+- Static NAT - 1 private to 1 (fixed) public address (IGW)
+- Dynamic NAT - 1 private to 1st available Public
+- Port Address Translation (PAT) - many private to 1 public (NATGW)
+- IPv4 only, makes no sense with IPv6 (too many addresses)
+- Static Network Address Translation
+	- The Router (NAT Device) maintains a NAT table, it maps Private IP : Public IP (1:1)
+	- AWS - Internet Gateway (IGW) functions this is how it works
+	- Basically translates a Private IP to a Public IP and vice versa for sending packets sliding over the destination in the process
+	- Uses the NAT table to do so 
+	- ![[Pasted image 20240919194550.png]]
+- Dynamic Network Address Translation
+	- The Router (NAT DEVICE) maintains a NAT table, it maps PrivateIP : Public IP Public IP allocations are temporary allocations from a Public IP Pool
+	- It's like Static NAT, but multiple devices can share a public IP as long as it's not as the same time because it's only temporarily allocated
+	- It's possible for a connection to fail if the pool of Public IP allocations is full
+	- ![[Pasted image 20240919195000.png]]
+- Port Address Translation (PAT)
+	- Allows a lot of private devices to share one address
+	- In AWS this is how the NATGateway (NATGW) functions - a (MANY:1)(PrivateIP:PublicIP) Architecture
+	- The NAT Device records the Source (Private) IP and Source Port. It replaces the source IP with the single Public IP and a public source port allocated from a pool which allows IP overloading (many to one)
+	- The NAT device gives the packet a new source port and give the packet it's own IP address
+	- The original source port of a packet can be the same because the NAT device will change the source port and give it the IP that the NAT device has 
+	- It uses a NAT table to do all of this 
+	- It uses the NAT table when sending a pack back to the source device by translating the Public Port and Public IP to a Private Port and Private IP
+	- You can initiate traffic to these devices without an entry in the NAT table as it would not know what to do

@@ -1,0 +1,52 @@
+#transport #layer_4
+
+- Layer 3 - Problems
+	- 6 separate packets (in diagram)
+	- Out of order arrival of packets can happen
+	- Different routes can result in out of order packets
+	- L3 provides no ordering mechanism
+	- Packets can be lost en route
+	- Per packet routing can introduce delays
+	- Different packets can experience different delays
+	- With Layer 3 - There are no communication channels, packets have a source and destination IP but no method of splitting by APP or CHANNEL
+	- No flow control, one device can be sending packets faster than another device can handle resulting in lost packets
+- TCP and UDP
+	- Two new protocols in Layer 4
+	- Runs atop of IP
+	- TCP is slower/reliable (more important stuff like http, https, ssh etc)
+	- UDP is fast/less reliable, doesn't have the overhead like TCP
+	- ![[Pasted image 20240919190531.png]]
+	- TCP will be used more for important internet processes 
+- TCP Segments
+	- Segments are encapsulated in IP Packets
+	- TCP segments are placed inside packets
+	- Segments don't have source or destination IPS because Layer 3 handles that (the packets know)
+	- Segments have Source and Destination Ports
+	- Allows multiple streams of convos at the same time between two devices
+	- It is why HTTP and HTTPS can exist on the same instance
+	- It also has sequence number, incremented with each segment sent. Can be used for error correcting and making sure packets are correctly ordered.
+	- Acknowledgment is how it can acknowledge that it has received a certain sequence number of a segment
+	- There is also a Flags 'n' things which also varies controls of segments like opening and closing segments
+	- TCP also has a window which is the number of bytes you will receive between sending of packets. It will pause before it can accept more. This allows for flow control.
+	- Urgent Pointer means both sides can have control settings which will let things take priority
+	- All the fields together are called the TCP Header
+- Transmission Control Protocol (TCP)
+	- The connection is a reliable connection, provided via the segments encapsulated in IP Packets
+	- TCP is a connection based protocol. A connection is established between two devices using a random port on a client and a known port on the server. Once established the connection is bi-directional.
+	- The connection is like a channel that goes back and forwarth
+	- The channel is not real its just a collection of segments
+	- You need two sets of rules for going and receiveing
+	- ![[Pasted image 20240919192446.png]]
+	- Ephemeral ports means the port range the client picks as the source port 
+- TCP Connection 3-way Handshake
+	- Flags which can be set to alter the connection. ex FIN can be used to close, ACK for acknowledgements, SYN to synchronize sequence numbers
+	- ![[Pasted image 20240919192920.png]]
+- Sessions & State
+	- Well known port is a port on a server
+	- Stateless firewall - doesn't understand the state of a connection
+		-  needs two rules, an outbound and the response (inbound)
+		- Network ACL (AWS)
+	- A stateful firewall views sees one thing. Allowing the outbound implicitly allows the inbound. 
+		- ![[Pasted image 20240919193317.png]]
+	- Both with apply to security rules in AWS
+	- Technically Layer 5

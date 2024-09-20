@@ -1,0 +1,62 @@
+#network #layer_3
+
+- L3 -> L3 Building a Common L3 Network
+	- Layer 3 can span multiple different layer 2 networks
+	- Ethernet is a L2 protocol used generally for local networks. Long distance point to point links will use other more suitable protocols such as ...PPP/MLPS/ATM
+	- Routers (L3) devices remove frame encapsulation and add new frame encapsulation at every hop
+	- Internet Protocol (IP)  is a Layer-3 protocol which adds cross-network IP addressing and routing to move data between Local Area Networks without direct P2P links
+	- ![[Pasted image 20240919181020.png]]
+- Layer 3 - IP - Packet Structure
+	- v4
+		- Every packet has a source and destination IP Address
+		- Has a protocol field, stores which protocol is used. UDP, TCP, Pings, etc etc. Will be a number value. 
+		- Bulk of the space is taken from the Data itself. From Layer 4
+		- Has a Time To Live field
+	- v6
+		- Source and Destination IP Addresses have larger addresses
+		- Still has Data from a layer 4 protocol but much bigger
+		- Has a Hop limit similar to Time to Live for Ipv4
+	- ![[Pasted image 20240919181856.png]]
+- IPv4
+	- Dotted-decimal notation- 4 x 0-255
+	- Has a Network part and Host part
+	- If the network part of two different ip addresses match, that means they are on the same IP network, if not, they're on different networks.
+	- IP Addresses are actually binary
+	- /16 prefix - 16 bits of the  IP are the network
+	- ![[Pasted image 20240919182425.png]]
+	- IP Addresses need to be unique 
+- Subnet Mask
+	- Subnet Mash allows a HOST to determine if an IP address it needs to communicate with is local or remote - which influences if it needs to use a gateway or can communicate locally
+	- A Subnet Mask is configured on a host device in addition to an IP address ex 255.255.0.0 & this is the same as a /16 prefix
+	- ![[Pasted image 20240919183129.png]]
+- L3 - Route Tables & Routes
+	- All data from my local network by default gets sent to my router first
+	- If multiple routes exist it will prefer the more specific route 
+	- Default route (0.0.0.0/0 for example) will be a match if nothing else does 
+	- The nest hop/target is the next destination it will take on it's path.
+	- ![[Pasted image 20240919183835.png]]
+- Address Resolution Protocol (ARP)
+	- Checks if it is on same network first
+	- Asks who had the destination IP
+	- Correct IP Address responds with MAC address
+	- Builds a frame
+	- Gives it to layer 1, and it will send it to the correct address
+	- Works from Layer 3 down to Layer 1
+	- Layer 3 will use Layer 2 for local communication
+	- Facilitates the connection between Layer 3 and Layer 2
+	- ![[Pasted image 20240919184344.png]]
+- Layer 3 - IP Routing
+	- Routers strip away the frame and will send a packet addressed somewhere else
+	- The Router will then create a new frame with the packer to addressed to the next hop to get to the final destination
+	- ARP IS ONLY FOR LOCAL NETWORKS
+	- Its a routers job to move packets between networks using the routing table and stripping and creating frames for the next hop
+	- ![[Pasted image 20240919185103.png]]
+- Summary
+	- IP Addresses (IPv4/v6) - cross network addressing
+	- ARP - Find the MAC address, for this IP
+	- Route - where to forward this packet
+	- Route Tables - Multiple Routes
+	- Router - moves packets from SRC to DST - Encapsulation in L2 on the way
+	- Device <-> Device Communications over the internet
+	- No method for channels of communications.. SRC IP <-> DST IP Only
+	- Can be delivered out of order...
