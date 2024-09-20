@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cantril SAA/SSL and TLS.md",
+                "file": "Maarek SAA/Spot Instances & Spot Fleet.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "s",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cantril SAA/SSL and TLS.md",
+                "file": "Maarek SAA/Spot Instances & Spot Fleet.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cantril SAA/SSL and TLS.md",
+                "file": "Maarek SAA/Spot Instances & Spot Fleet.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cantril SAA/SSL and TLS.md"
+                "file": "Maarek SAA/Spot Instances & Spot Fleet.md"
               }
             }
           }
@@ -147,11 +147,21 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6ac697c45cd775bb",
+  "active": "d9cfcbad150bca5f",
   "lastOpenFiles": [
+    "Maarek SAA/EC2 Instances Purchasing Options.md",
+    "Maarek SAA/Spot Instances & Spot Fleet.md",
+    "Maarek SAA/Pasted image 20240920105101.png",
+    "Maarek SAA/Pasted image 20240920105029.png",
+    "Maarek SAA/Pasted image 20240920104536.png",
+    "Maarek SAA/SSH Overview.md",
+    "Maarek SAA/Security Groups & Classic Ports Overview.md",
+    "Maarek SAA/EC2 Instance Types Basics.md",
+    "Maarek SAA/EC2 Fundamentals.md",
+    "Cantril SAA/Lesson Tracker.md",
+    "Cantril SAA/SSL and TLS.md",
     "Cantril SAA/Pasted image 20240919212724.png",
     "Cantril SAA/Distributed Denial of Service (DDoS) Attacks.md",
-    "Cantril SAA/SSL and TLS.md",
     "Cantril SAA/Pasted image 20240919211314.png",
     "Cantril SAA/Pasted image 20240919211103.png",
     "Cantril SAA/Pasted image 20240919210811.png",
@@ -159,10 +169,6 @@
     "Cantril SAA/IP Addressing & Subnetting.md",
     "Cantril SAA/Pasted image 20240919205654.png",
     "Cantril SAA/Pasted image 20240919205343.png",
-    "Cantril SAA/Pasted image 20240919204522.png",
-    "Cantril SAA/Pasted image 20240919204453.png",
-    "Cantril SAA/Pasted image 20240919203837.png",
-    "Cantril SAA/Lesson Tracker.md",
     "Cantril SAA/Networking Starter Pack.md",
     "Cantril SAA/Encryption.md",
     "Cantril SAA/Decimal to Binary and Back.md",
@@ -170,7 +176,6 @@
     "Cantril SAA/Cloud Computing.md",
     "Cantril SAA/AWS Accounts.md",
     "Cantril SAA/Network Address Translation (NAT).md",
-    "Cantril SAA/Pasted image 20240919195000.png",
     "Cantril SAA/Layer 4 - Transport.md",
     "Cantril SAA/Layer 3 -Network.md",
     "Cantril SAA/Layer 2 - Data link.md",
@@ -180,12 +185,7 @@
     "Cantril SAA/Public vs Private vs Hybrid vs Multi Cloud.md",
     "Cantril SAA/Identity and Access Management (IAM) Basics.md",
     "Cantril SAA/Multi-Factor Authentication (MFA).md",
-    "Maarek SAA/Security Groups & Classic Ports Overview.md",
-    "Maarek SAA/EC2 Instance Types Basics.md",
-    "Maarek SAA/SSH Overview.md",
-    "Maarek SAA/EC2 Fundamentals.md",
     "Maarek SAA",
-    "Cantril SAA/IAM Access Keys.md",
     "Cantril SAA",
     "project/terraform",
     "project"
