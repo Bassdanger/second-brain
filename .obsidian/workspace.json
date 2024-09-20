@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Nana DevOps Bootcamp/Introduction to AWS CLI.md",
+                "file": "Maarek SAA/IAM Guidelines & Best Practices.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Nana DevOps Bootcamp/Introduction to AWS CLI.md",
+                "file": "Maarek SAA/IAM Guidelines & Best Practices.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Nana DevOps Bootcamp/Introduction to AWS CLI.md",
+                "file": "Maarek SAA/IAM Guidelines & Best Practices.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Nana DevOps Bootcamp/Introduction to AWS CLI.md"
+                "file": "Maarek SAA/IAM Guidelines & Best Practices.md"
               }
             }
           }
@@ -149,8 +149,10 @@
   },
   "active": "6ac697c45cd775bb",
   "lastOpenFiles": [
-    "Maarek SAA/Spot Instances & Spot Fleet.md",
+    "Maarek SAA/Pasted image 20240920174949.png",
     "Nana DevOps Bootcamp/Introduction to AWS CLI.md",
+    "Maarek SAA/IAM Guidelines & Best Practices.md",
+    "Maarek SAA/Spot Instances & Spot Fleet.md",
     "Nana DevOps Bootcamp",
     "Maarek SAA/EC2 Instances Purchasing Options.md",
     "Maarek SAA/Pasted image 20240920105101.png",
@@ -184,8 +186,6 @@
     "Cantril SAA/Layer 1 - Physical.md",
     "Cantril SAA/JavaScript Object Notation (JSON).md",
     "Cantril SAA/YAML (aint't markup language).md",
-    "Cantril SAA/Public vs Private vs Hybrid vs Multi Cloud.md",
-    "Cantril SAA/Identity and Access Management (IAM) Basics.md",
     "Maarek SAA",
     "Cantril SAA",
     "project/terraform",
