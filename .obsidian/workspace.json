@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Maarek SAA/IAM Guidelines & Best Practices.md",
+                "file": "AWS Business Essentials/Cloud Computing Fundamentals.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Maarek SAA/IAM Guidelines & Best Practices.md",
+                "file": "AWS Business Essentials/Cloud Computing Fundamentals.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Maarek SAA/IAM Guidelines & Best Practices.md",
+                "file": "AWS Business Essentials/Cloud Computing Fundamentals.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Maarek SAA/IAM Guidelines & Best Practices.md"
+                "file": "AWS Business Essentials/Cloud Computing Fundamentals.md"
               }
             }
           }
@@ -149,9 +149,11 @@
   },
   "active": "6ac697c45cd775bb",
   "lastOpenFiles": [
+    "Maarek SAA/IAM Guidelines & Best Practices.md",
+    "AWS Business Essentials/Cloud Computing Fundamentals.md",
+    "AWS Business Essentials",
     "Maarek SAA/Pasted image 20240920174949.png",
     "Nana DevOps Bootcamp/Introduction to AWS CLI.md",
-    "Maarek SAA/IAM Guidelines & Best Practices.md",
     "Maarek SAA/Spot Instances & Spot Fleet.md",
     "Nana DevOps Bootcamp",
     "Maarek SAA/EC2 Instances Purchasing Options.md",
@@ -172,7 +174,6 @@
     "Cantril SAA/Pasted image 20240919210529.png",
     "Cantril SAA/IP Addressing & Subnetting.md",
     "Cantril SAA/Pasted image 20240919205654.png",
-    "Cantril SAA/Pasted image 20240919205343.png",
     "Cantril SAA/Networking Starter Pack.md",
     "Cantril SAA/Encryption.md",
     "Cantril SAA/Decimal to Binary and Back.md",
