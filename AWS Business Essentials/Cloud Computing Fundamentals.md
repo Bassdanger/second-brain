@@ -1,2 +1,42 @@
 #cloud_computing 
 
+- The Definition of Cloud Computing
+	- On-demand, self-service
+	- Broad network access
+	- Resource pooling
+	- Rapid elasticity
+	- Measured Service
+- Comparing Cloud Computing to Traditional IT
+	- Traditional IT  / Legacy IT
+		- A company may lease space in a data center or own a whole building
+		- The IT equipment is owned by the company
+		- IT must design, build, and manage equipment
+		- Has a lot of costs such surrounding the data center building
+- Cloud Computing Deployment Models
+	- Private Cloud 
+		- VMware, Microsoft, RedHat, OpenStack
+		- Complete control
+		- Security
+	- Public Cloud
+		- AWS, Microsoft Azure, GCP
+		- Connected using internet
+		- Can use Services
+		- Pay as you go
+		- Elasticity
+	- Hybrid Cloud
+		- Connected to internet
+		- Keeps critical applications and sensitive data off the cloud or private cloud
+	- Multicloud
+		- Using multiple clouds
+	- Private Cloud - you own the house
+	- IaaS - Having a room in the hotel, you must maintain the room
+	- PaaS - Developers upload code everything else is handled
+	- SaaS - Only consume the service
+- Scalability and Elasticity 
+	- Elasticity scales by demand
+	- Compute Scaling OUT (More instances), Compute Scaling UP (More resources), Database Scaling OUT (Spread the load)
+- High Availability
+	- If one instance fails, the application automatically fails over
+- Fault Tolerance
+	- If one fails, the other one will be there to help, redundancy
+	- Redundant components allow the system to continue to operate
