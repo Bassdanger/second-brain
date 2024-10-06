@@ -40,3 +40,13 @@
 	- Bastion Host security group must allow access from the internet
 		- Access from the public CIDR from your corporation for example
 	- Security Group of the EC2 Instances must allow the Security Group of the Bastion Host or the private IP of the Bastion host
+- NAT Instance
+	- Outdated but still on exam
+	- Network Address Translation
+	- Allows EC2s in the private subnets to connect to the internet
+	- Must be launched in a public subnet
+	- Must disable EC2 setting: Source / destination Check
+	- Must have Elastic IP attached to it
+	- Route tables must be made to route traffic from private subnets to the NAT Instance
+- NAT Gateway
+	- AWS-managed NAT
