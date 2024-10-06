@@ -50,3 +50,12 @@
 	- Route tables must be made to route traffic from private subnets to the NAT Instance
 - NAT Gateway
 	- AWS-managed NAT
+	- Pay per hour
+	- NATGW created in specific AZ, uses Elastic IP
+	- Requires an IGW (Private Subnet => NATGW => IGW)
+	- 5 Gbps of bandwidth with automatic scaling up to 100 Gbps
+	- No security groups required
+- NAT Gateway with High Availability
+	- resilient within a single AZ
+	- must create multiple NAT Gateways in multiple AZs for fault-tolerance
+	- There is no cross-AZ failover needed because if an AZ goes down it doesn't need NAT
