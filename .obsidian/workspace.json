@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AWS Business Essentials/Cloud Computing Fundamentals.md",
+                "file": "Maarek DVA/VPC Fundamentals.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AWS Business Essentials/Cloud Computing Fundamentals.md",
+                "file": "Maarek DVA/VPC Fundamentals.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AWS Business Essentials/Cloud Computing Fundamentals.md",
+                "file": "Maarek DVA/VPC Fundamentals.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AWS Business Essentials/Cloud Computing Fundamentals.md"
+                "file": "Maarek DVA/VPC Fundamentals.md"
               }
             }
           }
@@ -149,8 +149,10 @@
   },
   "active": "6ac697c45cd775bb",
   "lastOpenFiles": [
-    "Maarek SAA/IAM Guidelines & Best Practices.md",
     "AWS Business Essentials/Cloud Computing Fundamentals.md",
+    "Maarek DVA/VPC Fundamentals.md",
+    "Maarek DVA",
+    "Maarek SAA/IAM Guidelines & Best Practices.md",
     "AWS Business Essentials",
     "Maarek SAA/Pasted image 20240920174949.png",
     "Nana DevOps Bootcamp/Introduction to AWS CLI.md",
@@ -186,7 +188,6 @@
     "Cantril SAA/Layer 2 - Data link.md",
     "Cantril SAA/Layer 1 - Physical.md",
     "Cantril SAA/JavaScript Object Notation (JSON).md",
-    "Cantril SAA/YAML (aint't markup language).md",
     "Maarek SAA",
     "Cantril SAA",
     "project/terraform",

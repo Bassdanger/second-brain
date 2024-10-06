@@ -1,0 +1,58 @@
+#vpc
+
+- VPC, Subnets, Internet Gateways & NAT Gateways
+- Security Groups, Network ACL (NACL), VPC Flow Logs
+- VPC Peering, VPC Endpoints
+- Site to Site VPN & Direct Connect
+- VPC is a private network to deploy your resources
+- Subnets allow you to partition your network inside your VPC
+	- Public subnet - accessible from internet
+	- Private subnet - not accessible to the internet
+- Route Tables - define access to the internet and between subnets
+- Internet gateway - helps vpc instances connect to internet
+	- Public subnets have route to internet gateway
+- NAT Gateways & NAT Instances allow instances in private subnets to access internet while remaining private
+	- NAT Gateway - aws managed
+	- NAT instances - self managed
+- NACL (Network ACL) - firewall that controls traffic from and to subnet
+	- Subnet level
+	- Rules only include IP addresses
+- Security Groups
+	- A firewall that controls traffic to and from an ENI / EC2 Instance
+	- Only allow rules
+	- can include ip addresses or other security groups
+- VPC flow logs - captures information going into interfaces
+	- VPC
+	- Subnet
+	- Elastic Network Interface
+	- Helps monitor issues
+- VPC Peering
+	- Connects to two VPC privately
+	- Behaves as if they were in the same network
+	- Most not have overlapping CIDR
+	- Are NOT transitive, only one to another one
+- VPC Endpoints
+	- Allow you to connect to AWS services using a private network
+	- Better security
+	- VPC Endpoint Gateway
+	- Only used within your VPC
+- Site to Site VPN
+	- Connect an on-premises VPN to AWS
+	- Encrypted
+	- Over public internet
+- Direct Connect (DX)
+	- physical connection between on-premises and AWS
+	- private, secure, fast
+	- goes over a private network
+	- takes a month to setup
+- Subnets
+	- Tied to an AZ, network partition of the VPC
+- LAMP Stack EC2
+	- Linux
+	- Apache
+	- MySQL
+	- PHP
+- When using VPC Endpoints, what are the only two AWS services that have a Gateway Endpoint available?
+	- Amazon S3 and DynamoDB
+- A web application hosted on a fleet of EC2 instances managed by an Auto Scaling Group. You are exposing this application through an Application Load Balancer. Both the EC2 instances and the ALB are deployed on a VPC with the following CIDR `192.168.0.0/18`. How do you configure the EC2 instances' security group to ensure only the ALB can access them on port **80**?
+	- Add an Inbound Rule with port 80 and ALB's Security Group as the source
