@@ -5,4 +5,31 @@
 	- Used in Security Groups rules and AWS networking in general
 	- defines an IP address range
 	- Has two components
-		- 
+		- Base IP
+			- Contained in the range
+		- Subnet Mask
+			- Defines how many bits can change in IP
+			- /0, /24, /32
+	- Subnet Mask
+		- The lower the subnet number we have more IP addresses in the range
+		- /0 allows for all IPs
+- Public vs Private IP
+	- The IANA established blocks of IPs only used for Public and Private
+	- Private IP can only allow certain values
+- VPC in AWS
+	- VPC = Virtual Private Cloud
+	- Can have multiple VPCs in an AWS region (max 5 per region soft limit)
+	- Max CIDR per VPC is 5 for each CIDR
+		- Min size /28
+		- Max size /16
+	- VPC is private, only private IPv4 ranges allowed
+	- YOUR VPC CIDR SHOULD NOT OVERLAP WITH YOUR OTHER NETWORKS
+- VPC - Subnet (IPv4)
+	- AWS reserves 5 IP addresses (first 4 & last 1) in each subnet
+- Internet Gateway (IGW)
+	- Allow resources in a VPC to connect to the internet
+	- Scales horizontally, highly available, and redundant
+	- Must be created separately from a VPC
+	- One VPC can only be attached to one IGW and vice versa
+	- Internet gateways on their own do not allow internet access
+	- Route tables must also be edited
