@@ -33,3 +33,10 @@
 	- One VPC can only be attached to one IGW and vice versa
 	- Internet gateways on their own do not allow internet access
 	- Route tables must also be edited
+- Bastion Hosts
+	- EC2 Instance in the Public Subnet (Bastion Host)
+	- We can use the Bastion Host to SSH into private EC2 instances
+	- Is connected to all other private subnets
+	- Bastion Host security group must allow access from the internet
+		- Access from the public CIDR from your corporation for example
+	- Security Group of the EC2 Instances must allow the Security Group of the Bastion Host or the private IP of the Bastion host
