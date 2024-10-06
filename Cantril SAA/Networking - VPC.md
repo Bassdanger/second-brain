@@ -59,3 +59,23 @@
 	- resilient within a single AZ
 	- must create multiple NAT Gateways in multiple AZs for fault-tolerance
 	- There is no cross-AZ failover needed because if an AZ goes down it doesn't need NAT
+- Security Groups & NACLs
+	- like a firewall which control traffic and to subnets
+	- One NACL per subnet
+	- New subnets assigned the default NACL
+	- NACL Rules
+		- Rules have a number, higher precedence with a lower number
+		- First rule match will drive the decision
+		- The last rule is an a (*) and denies a request if none of the rules match
+		- AWS recommends adding rules by increment 100
+	- Newly created NACLs will deny everything
+	- NACL are a great way of blocking a specific IP address at the subnet level
+- Default NACL
+	- Accepts everything inbound/outbound with the subnets it's associated with
+	- Do not modify, create custom NACLs
+- Ephemeral Ports
+	- for two endpoints to establish a connection they must use ports
+	- Clients connect to a defined port, and expect a response on an ephemeral port
+	- Different Operating Systems use different port ranges
+- NACL with Ephemeral Ports
+	- 
