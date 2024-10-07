@@ -128,3 +128,88 @@
 	- Outgoing Requests
 		- Outbound REJECT => NACL or SG
 		- Outbound ACCEPT, Inbound REJECT => NACL
+- AWS Site-to-Site VPN
+	- Virtual Private Gateway (VGW)
+		- VPN concentrator on the AWS side of the VPN connection
+		- VGW is created and attached to the VPC from which you want to create the Site-to-Site VPN connection
+		- Possibility to customize the ASN
+	- Customer Gateway (CGW)
+		- Software application or physical device on customer side of the VPN connection
+- Site-to-Site VPN Connections
+	- Customer Gateway Device (On-premises)
+		- What IP address to use?
+			- Public Internet-routable IP address for your Customer Gateway device
+			- If it's behind a NAT device that's enabled for NAT traversal (NAT-T), use the public IP address of the NAT device
+	- Important step: enable Route Propagation for the Virtual Private Gateway in the route table that is associated with your subnets
+	- If you need to ping your EC2 instances from on-premises, make sure you add the ICMP protocol on the inbound of your security groups
+- AWS VPN CloudHub
+	- Provide secure communication between multiple sites, if you have multiple VPN connections
+	- Low-cost hub-and-spoke model for primary or secondary network connectivity between different locations
+	- It's a VPN connection so it goes over the public Internet
+	- To set it up, connect multiple VPN connections on the same VGW, setup dynamic routing and configure route tables
+- Direct Connect (DX)
+	- Provides a dedicated private connection from a remote network to your VPC
+	- must be setup between your DC and AWS Direct Connect locations
+	- need to setup a Virtual Private Gateway on your VPC
+	- Access public resources (S3) and private (EC2) on same connection
+	- Use Cases
+		- Increase bandwidth throughput - working with large data sets - lower cost
+		- More consistent network experience - applications using real-time data feeds
+		- Hybrid Environments (on prem + cloud)
+	- Supports both IPv4 and IPv6
+- Direct Connect Gateway
+	- use this if you want to setup a Direct Connect to one or more VPC in many different regions (same account), you must use a Direct Connect Gateway
+- Direct Connect - Connection Types
+	- Dedicated Connections: 1 Gbps, 10 Gbps and 100 Gbps capacity
+		- Physical ethernet port dedicated to a customer
+		- Request made to AWS first, then completed by AWS Direct Connect Partners
+	- Hosted Connections: 50 Mbps, 500 Mbps, to 10 Gbps
+		- Connection requests are made via AWS Direct Connect Partners
+		- Capacity can be added or removed on demand
+		- 1, 2, 5, 10 Gbps available at select AWS Direct Connect Partners
+	- Lead times are often longer than 1 month to establish a new connection
+- Direct Connect - Encryption
+	- Data in transit is not encrypted but is private
+	- AWS Direct Connect + VPN provides an IPsec-encrypted private connection
+	- Good for extra security but more complex to put in place
+- Direct Connect - Resiliency
+	- High Resiliency for Critical Workloads
+		- One connection at multiple locations
+	- Maximum Resiliency for Critical Workloads
+		- Maximum resilience is achieved by separate connections terminating on separate devices in more than one location.
+- Site-to-Site VPN connection as a backup
+	- If Direct Connect fails you can use a backup Direct Connect connection (expensive), or a Site-to-Site VPN connection
+- Transit Gateway
+	- For having transitive peering between thousands of VPC and on-premises, hub-and-spoke (star) connection
+	- Regional resource, can work cross-region
+	- Share cross-account using Resource Access Manager (RAM)
+	- You can peer Transit Gateways across regions
+	- Route Tables: limit which VPC can talk with other VPC
+	- Works with Direct Connect Gateway, VPN connections
+	- Supports IP Multicast (not supported by any other service)
+- Transit Gateway: Site-to-Site VPN ECMP
+	- ECMP = Equal-cost multi-path routing
+	- Routing strategy to allow a forward a packet over multiple best path
+	- Use case: create multiple Site-to-Site VPN connections to increase the bandwidth of your connection to AWS
+- VPC - Traffic Mirroring
+	- Allows you to capture and inspect network traffic in your VPC
+	- Route the traffic to security appliances that you manage
+	- Capture the traffic
+		- From (Source) - ENIs
+		- To (Targets) - an ENI or a Network Load Balancer
+	- Capture all packets or capture the packets of your interest
+	- Source and Target can be in the same VPC or different VPCs
+	- Use cases: content inspection, threat monitoring, troubleshooting
+- IPv6
+	- IPv4 addresses are running out
+	- IPv6 is the successor of IPv4
+	- IPv6 is designed to provide 3.4 x 10^36 unique addresses
+	- Every IPv6 address in AWS is public and Internet-routable (no private range)
+	- Example: 2001:db8:3333:4444:5555:6666:7777:8888
+- IPv6 in VPC
+	- IPv4 cannot be disabled for your VPC and subnets
+	- You can enable IPv6 to operate in dual-stack mode
+	- Your EC2 instances will get at least a private internal IPv4 and a public IPv6
+	- They can communicate using either IPv4 or IPv6 to the internet through an Internet Gateway
+- IPv6 Troubleshooting
+	- 
