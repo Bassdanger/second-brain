@@ -86,3 +86,45 @@
 	- You must update route tables in each VPC's subnets to ensure EC2 instances can communicate with each other
 	- can create connections in different AWS accounts/regions
 	- can reference a security group in a peered VPC (works across accounts -same region)
+- VPC Endpoints (AWS PrivateLink)
+	- Every AWS service is publicly exposed
+	- VPC Endpoints allows you to connect to AWS services using a private network instead of using the public Internet
+	- redundant and scale horizontally
+	- remove the need of IGW, NATGW to access AWS Services
+	- If issues
+		- Check DNS Setting Resolution
+		- Check Route Tables
+- Types of Endpoints
+	- Interface Endpoints (powered by PrivateLink)
+		- Uses an ENI (private IP address) as an entry point (must attach a Security Group)
+		- Supports most AWS services
+		- $ per hour and $ per GB of data processed
+	- Gateway Endpoints
+		- Provisions a gateway and must be used as a target in a route table (does not use security groups)
+		- Supports both S3 and DynamoDB
+		- Free
+		- Gateway is most likely going to be preferred all the time at the exam
+			- It's free
+			- Interface endpoint is preferred for on-premises, a different VPC, or a different region
+- VPC Flow Logs
+	- Capture information about IP traffic going into your interfaces
+		- VPC Flow Logs
+		- Subnet Flow Logs
+		- Elastic Network Interface (ENI) Flow Logs
+	- Helps monitor & troubleshoot connectivity issues
+	- Flow logs data can go to S3, CloudWatch Logs, and Kinesis Data Firehouse
+	- Captures network information from AWS managed interfaces too: ELB, RDS, ElastiCache, Redshift, WorkSpaces, NATGW, Transit Gateway
+- VPC Flow Logs Syntax
+	- srcaddr & dstaddr - help identify problematic IP
+	- srcport & dstport - help identify problematic ports
+	- Action - success or failure of the request due to Security Group / NACL
+	- Can be used for analytics on usage patterns or malicious behavior
+	- Query VPC flow logs using Athena on S3 or CloudWatch Logs Insights
+- VPC Flow Logs - Troubleshoot SG & NACL issues
+	- Look at the "Action" field
+	- Incoming Requests
+		- Inbound REJECT => NACL or SG
+		- Inbound ACCEPT, Outbound REJECT => NACL
+	- Outgoing Requests
+		- Outbound REJECT => NACL or SG
+		- Outbound ACCEPT, Inbound REJECT => NACL
