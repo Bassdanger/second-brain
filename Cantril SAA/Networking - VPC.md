@@ -212,4 +212,15 @@
 	- Your EC2 instances will get at least a private internal IPv4 and a public IPv6
 	- They can communicate using either IPv4 or IPv6 to the internet through an Internet Gateway
 - IPv6 Troubleshooting
+	- IPv4 cannot be disabled for your VPC and subnets
+	- If you can't launch EC2 in subnet
+		- not because it can't acquire an IPv6
+		- it's because there are no available IPv4 in your subnet
+	- Solution: create a new IPv4 CIDR in your subnet
+- Egress-only Internet Gateway
+	- Used for IPv6 only
+	- similar to NAT Gateway but for IPv6
+	- Allows instances in your VPC outbound connections over IPv6 while preventing the internet to initiate an IPv6 connection to your instances
+	- You must update the Route Tables
+- IPv6 Routing
 	- 
