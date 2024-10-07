@@ -128,12 +128,21 @@
                 "file": "Cantril SAA/Networking - VPC.md"
               }
             }
+          },
+          {
+            "id": "d06e3bd8876f32a4",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 200,
     "collapsed": true
   },
   "left-ribbon": {

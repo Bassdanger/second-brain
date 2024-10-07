@@ -222,5 +222,23 @@
 	- similar to NAT Gateway but for IPv6
 	- Allows instances in your VPC outbound connections over IPv6 while preventing the internet to initiate an IPv6 connection to your instances
 	- You must update the Route Tables
-- IPv6 Routing
-	- 
+- Networking Costs in AWS per GB - Simplified
+	- Use Private IP instead of Public IP for good savings and better network performance
+	- Use same AZ for maximum savings (at the cost of high availability)
+- Minimizing egress traffic network cost
+	- Egress traffic: outbound traffic from AWS to outside
+	- Ingress traffic: inbound traffic from outside to AWS
+	- keep as much internet traffic within AWS to minimize costs
+	- Direct Connect location that are co-located in the same AWS region result in lower cost for egress network
+- AWS Network Firewall
+	- Protects your entire Amazon VPC
+	- Any direction, you can inspect
+		- VPC to VPC traffic
+		- Outbound to internet
+		- Inbound from internet
+		- To / from Direct Connect & Site-to-Site VPN
+		- Internally, the AWS Network Firewall uses the AWS Gateway Load Balancer
+		- Rules can be centrally managed cross-account by AWS Firewall Manager to apply to many VPCs
+- Network Firewall - Fine Grained Controls
+	- Traffic filtering: Allow, drop, or alert for the traffic that matches the rules
+	- Active flow inspection to protect against network threats with intrusion-prevention capabilities
