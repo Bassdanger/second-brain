@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Maarek CloudFormation/CloudFormation - Getting Started.md",
+                "file": "Nana DevOps Bootcamp/Virtual Private Cloud (VPC).md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Maarek CloudFormation/CloudFormation - Getting Started.md",
+                "file": "Nana DevOps Bootcamp/Virtual Private Cloud (VPC).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Maarek CloudFormation/CloudFormation - Getting Started.md",
+                "file": "Nana DevOps Bootcamp/Virtual Private Cloud (VPC).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Maarek CloudFormation/CloudFormation - Getting Started.md"
+                "file": "Nana DevOps Bootcamp/Virtual Private Cloud (VPC).md"
               }
             }
           },
@@ -158,8 +158,12 @@
   },
   "active": "6ac697c45cd775bb",
   "lastOpenFiles": [
-    "AWS Business Essentials/Cloud Computing Fundamentals.md",
+    "Nana DevOps Bootcamp/Regions & Availability Zones.md",
+    "Nana DevOps Bootcamp/Virtual Private Cloud (VPC).md",
+    "Nana DevOps Bootcamp/Networking.md",
     "Maarek CloudFormation/CloudFormation - Getting Started.md",
+    "Nana",
+    "AWS Business Essentials/Cloud Computing Fundamentals.md",
     "Maarek CloudFormation/AWS CloudFormation Introduction.md",
     "Cantril SAA/Networking - VPC.md",
     "Maarek CloudFormation",
@@ -195,9 +199,6 @@
     "Cantril SAA/Cloud Service Models.md",
     "Cantril SAA/Cloud Computing.md",
     "Cantril SAA/AWS Accounts.md",
-    "Cantril SAA/Network Address Translation (NAT).md",
-    "Cantril SAA/Layer 4 - Transport.md",
-    "Cantril SAA/Layer 3 -Network.md",
     "Maarek SAA",
     "Cantril SAA",
     "project/terraform",
