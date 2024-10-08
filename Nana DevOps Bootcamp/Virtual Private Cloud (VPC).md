@@ -12,3 +12,12 @@
 	- Private network inside a network
 	- Private and Public Subnets
 	- Firewall Rule configuration makes it either a private and/or public subnet
+- Controlling Access
+	- Internet Gateway connects the VPC to the outside internet
+	- Secure your components
+	- Controls access to your VPC
+	- Control access to your individual server instances
+- Security
+	- Configure access on subnet level => NACL
+	- Configure access on instance level => Security Group
+	- Create on VPC level and assign to subnet and instance
