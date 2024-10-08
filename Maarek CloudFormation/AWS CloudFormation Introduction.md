@@ -24,3 +24,8 @@
 	- Don't re-invent the wheel
 		- Leverage existing templates on the web
 		- documentation
+- How CloudFormation Works
+	- Templates must be uploaded in S3 and then referenced in CloudFormation
+	- To update a template, we can't edit the old one, we have to reupload a new version of the template to AWS
+	- Stacks are identified by a name
+	- Deleting a stack deletes every single artifact that was created by CloudFormation

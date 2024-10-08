@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Maarek CloudFormation/AWS CloudFormation Introduction.md",
+                "file": "Maarek CloudFormation/CloudFormation - Getting Started.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Maarek CloudFormation/AWS CloudFormation Introduction.md",
+                "file": "Maarek CloudFormation/CloudFormation - Getting Started.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Maarek CloudFormation/AWS CloudFormation Introduction.md",
+                "file": "Maarek CloudFormation/CloudFormation - Getting Started.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Maarek CloudFormation/AWS CloudFormation Introduction.md"
+                "file": "Maarek CloudFormation/CloudFormation - Getting Started.md"
               }
             }
           },
@@ -158,11 +158,12 @@
   },
   "active": "6ac697c45cd775bb",
   "lastOpenFiles": [
-    "Cantril SAA/Networking - VPC.md",
+    "AWS Business Essentials/Cloud Computing Fundamentals.md",
+    "Maarek CloudFormation/CloudFormation - Getting Started.md",
     "Maarek CloudFormation/AWS CloudFormation Introduction.md",
+    "Cantril SAA/Networking - VPC.md",
     "Maarek CloudFormation",
     "Maarek DVA/VPC Fundamentals.md",
-    "AWS Business Essentials/Cloud Computing Fundamentals.md",
     "Maarek DVA",
     "Maarek SAA/IAM Guidelines & Best Practices.md",
     "AWS Business Essentials",
@@ -197,7 +198,6 @@
     "Cantril SAA/Network Address Translation (NAT).md",
     "Cantril SAA/Layer 4 - Transport.md",
     "Cantril SAA/Layer 3 -Network.md",
-    "Cantril SAA/Layer 2 - Data link.md",
     "Maarek SAA",
     "Cantril SAA",
     "project/terraform",
