@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cantril SAA/Networking - VPC.md",
+                "file": "Maarek CloudFormation/AWS CloudFormation Introduction.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cantril SAA/Networking - VPC.md",
+                "file": "Maarek CloudFormation/AWS CloudFormation Introduction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cantril SAA/Networking - VPC.md",
+                "file": "Maarek CloudFormation/AWS CloudFormation Introduction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cantril SAA/Networking - VPC.md"
+                "file": "Maarek CloudFormation/AWS CloudFormation Introduction.md"
               }
             }
           },
@@ -158,8 +158,10 @@
   },
   "active": "6ac697c45cd775bb",
   "lastOpenFiles": [
-    "Maarek DVA/VPC Fundamentals.md",
     "Cantril SAA/Networking - VPC.md",
+    "Maarek CloudFormation/AWS CloudFormation Introduction.md",
+    "Maarek CloudFormation",
+    "Maarek DVA/VPC Fundamentals.md",
     "AWS Business Essentials/Cloud Computing Fundamentals.md",
     "Maarek DVA",
     "Maarek SAA/IAM Guidelines & Best Practices.md",
@@ -196,7 +198,6 @@
     "Cantril SAA/Layer 4 - Transport.md",
     "Cantril SAA/Layer 3 -Network.md",
     "Cantril SAA/Layer 2 - Data link.md",
-    "Cantril SAA/Layer 1 - Physical.md",
     "Maarek SAA",
     "Cantril SAA",
     "project/terraform",
