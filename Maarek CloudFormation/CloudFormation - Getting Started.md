@@ -8,3 +8,34 @@
 	- Support Arrays
 	- Multi line strings
 	- Can include comments
+- CloudFormation Update Behavior
+	- CloudFormation updates resources based on differences between what you submit and stack's current template
+	- Which method to use depends on which property you update for a resource
+	- Update with No Interruption
+		- Without disrupting resources operation & without changing physical ID
+	- Update with Some Interruption
+		- Example: updating an EC2 instance type from t2.micro to t2.large
+	- Replacement
+		- Recreating the resource with new physical ID
+		- Creates the new resource, change references from other resources to the new resource, then deletes the old resource
+		- Example: updating an RDS DB Instance availability zone
+- Deleting a S3 bucket
+	- You can't delete a non-empty S3 bucket
+	- Must delete all objects inside it first
+- CloudFormation Template Options
+	- parameters that are common to any CloudFormation
+		- Tags
+		- Permissions
+		- Notification Options
+		- Timeout
+		- Rollback on Failure
+		- Rollback Configuration
+		- Stack Policy
+		- Termination Protection
+		- Quick-start Link
+- AWS Application Composer
+	- Visually design and build serverless applications quickly
+	- Deploy AWS infrastructure code without needing to be an expert
+	- Configure how your resources interact with each other
+	- Generates Infrastructure as Code using CloudFormation
+	- Ability to import existing CloudFormation / SAM templates to visualize them
