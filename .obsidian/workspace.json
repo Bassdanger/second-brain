@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cantril SAA/Networking - VPC.md",
+                "file": "Maarek SAA/Route 53.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "icmp",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cantril SAA/Networking - VPC.md",
+                "file": "Maarek SAA/Route 53.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cantril SAA/Networking - VPC.md",
+                "file": "Maarek SAA/Route 53.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cantril SAA/Networking - VPC.md"
+                "file": "Maarek SAA/Route 53.md"
               }
             }
           },
@@ -159,8 +158,21 @@
   },
   "active": "6ac697c45cd775bb",
   "lastOpenFiles": [
+    "Maarek SAA/Networking - VPC.md",
+    "Maarek SAA/Route 53.md",
+    "Cantril SAA/Networking - VPC 1.md",
+    "Cantril SAA/Network Address Translation (NAT).md",
+    "Maarek SAA/EC2 Fundamentals.md",
+    "Maarek SAA/EC2 Instance Types Basics.md",
+    "Maarek SAA/IAM Guidelines & Best Practices.md",
+    "Maarek SAA/Pasted image 20240917192635.png",
+    "Maarek SAA/Pasted image 20240920104536.png",
+    "Maarek SAA/Pasted image 20240920174949.png",
+    "Maarek SAA/Security Groups & Classic Ports Overview.md",
+    "Maarek SAA/Spot Instances & Spot Fleet.md",
+    "Maarek SAA/SSH Overview.md",
+    "Maarek SAA/EC2 Instances Purchasing Options.md",
     "Maarek DVA/VPC Fundamentals.md",
-    "Cantril SAA/Networking - VPC.md",
     "Nana DevOps Bootcamp/Virtual Private Cloud (VPC).md",
     "Nana DevOps Bootcamp/Regions & Availability Zones.md",
     "Nana DevOps Bootcamp/Networking.md",
@@ -170,20 +182,11 @@
     "Maarek CloudFormation/AWS CloudFormation Introduction.md",
     "Maarek CloudFormation",
     "Maarek DVA",
-    "Maarek SAA/IAM Guidelines & Best Practices.md",
     "AWS Business Essentials",
-    "Maarek SAA/Pasted image 20240920174949.png",
     "Nana DevOps Bootcamp/Introduction to AWS CLI.md",
-    "Maarek SAA/Spot Instances & Spot Fleet.md",
     "Nana DevOps Bootcamp",
-    "Maarek SAA/EC2 Instances Purchasing Options.md",
     "Maarek SAA/Pasted image 20240920105101.png",
     "Maarek SAA/Pasted image 20240920105029.png",
-    "Maarek SAA/Pasted image 20240920104536.png",
-    "Maarek SAA/SSH Overview.md",
-    "Maarek SAA/Security Groups & Classic Ports Overview.md",
-    "Maarek SAA/EC2 Instance Types Basics.md",
-    "Maarek SAA/EC2 Fundamentals.md",
     "Cantril SAA/Lesson Tracker.md",
     "Cantril SAA/SSL and TLS.md",
     "Cantril SAA/Pasted image 20240919212724.png",
@@ -193,13 +196,9 @@
     "Cantril SAA/Pasted image 20240919210811.png",
     "Cantril SAA/Pasted image 20240919210529.png",
     "Cantril SAA/IP Addressing & Subnetting.md",
-    "Cantril SAA/Pasted image 20240919205654.png",
     "Cantril SAA/Networking Starter Pack.md",
     "Cantril SAA/Encryption.md",
     "Cantril SAA/Decimal to Binary and Back.md",
-    "Cantril SAA/Cloud Service Models.md",
-    "Cantril SAA/Cloud Computing.md",
-    "Cantril SAA/AWS Accounts.md",
     "Maarek SAA",
     "Cantril SAA",
     "project/terraform",
