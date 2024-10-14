@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Maarek SAA/Route 53.md",
+                "file": "Maarek SAA/Amazon S3 Introduction.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Maarek SAA/Route 53.md",
+                "file": "Maarek SAA/Amazon S3 Introduction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Maarek SAA/Route 53.md",
+                "file": "Maarek SAA/Amazon S3 Introduction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Maarek SAA/Route 53.md"
+                "file": "Maarek SAA/Amazon S3 Introduction.md"
               }
             }
           },
@@ -158,8 +158,10 @@
   },
   "active": "6ac697c45cd775bb",
   "lastOpenFiles": [
-    "Maarek SAA/Networking - VPC.md",
+    "Maarek SAA/Classic Solutions Architecture Discussions.md",
+    "Maarek SAA/Amazon S3 Introduction.md",
     "Maarek SAA/Route 53.md",
+    "Maarek SAA/Networking - VPC.md",
     "Cantril SAA/Networking - VPC 1.md",
     "Cantril SAA/Network Address Translation (NAT).md",
     "Maarek SAA/EC2 Fundamentals.md",
@@ -197,8 +199,6 @@
     "Cantril SAA/Pasted image 20240919210529.png",
     "Cantril SAA/IP Addressing & Subnetting.md",
     "Cantril SAA/Networking Starter Pack.md",
-    "Cantril SAA/Encryption.md",
-    "Cantril SAA/Decimal to Binary and Back.md",
     "Maarek SAA",
     "Cantril SAA",
     "project/terraform",
