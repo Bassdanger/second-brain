@@ -11,9 +11,11 @@
             "id": "6ac697c45cd775bb",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Maarek SAA/Pasted image 20240917184242.png"
+                "file": "Maarek SAA/Amazon S3 Security.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -83,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Maarek SAA/Pasted image 20240917184242.png",
+                "file": "Maarek SAA/Amazon S3 Security.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Maarek SAA/Pasted image 20240917184242.png",
+                "file": "Maarek SAA/Amazon S3 Security.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Maarek SAA/Pasted image 20240917184242.png"
+                "file": "Maarek SAA/Amazon S3 Security.md"
               }
             }
           },
@@ -154,15 +156,17 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6ac697c45cd775bb",
+  "active": "d9cfcbad150bca5f",
   "lastOpenFiles": [
+    "Maarek SAA/Advanced Amazon S3.md",
+    "Maarek SAA/Amazon S3 Security.md",
+    "Maarek SAA/Networking - VPC.md",
+    "Maarek SAA/Amazon S3 Introduction.md",
+    "Maarek SAA/Pasted image 20240917184242.png",
     "Maarek SAA/Pasted image 20240917190814.png",
     "Maarek SAA/Pasted image 20240920105101.png",
     "Maarek SAA/Pasted image 20240917194612.png",
     "Maarek SAA/Pasted image 20240917192458.png",
-    "Maarek SAA/Networking - VPC.md",
-    "Maarek SAA/Amazon S3 Introduction.md",
-    "Maarek SAA/Advanced Amazon S3.md",
     "Maarek SAA/Route 53.md",
     "Maarek DVA/VPC Fundamentals.md",
     "Maarek SAA/Classic Solutions Architecture Discussions.md",
@@ -195,8 +199,6 @@
     "Cantril SAA/SSL and TLS.md",
     "Cantril SAA/Pasted image 20240919212724.png",
     "Cantril SAA/Distributed Denial of Service (DDoS) Attacks.md",
-    "Cantril SAA/Pasted image 20240919211314.png",
-    "Cantril SAA/Pasted image 20240919211103.png",
     "Maarek SAA",
     "Cantril SAA",
     "project/terraform",
