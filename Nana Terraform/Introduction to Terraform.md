@@ -1,0 +1,21 @@
+#infrastructure_as_code #iac #terraform
+
+- Automate all tasks end to end
+- IaC is a concept
+- Has tools
+- 3 main task categories
+	- infrastructure provisioning 
+	- configuration of provisioned infrastructure
+	- Deployment of application
+- Distinction of phases
+	- initial setup phase
+	- maintaining phase
+- Difference of IaC tools
+	- Automate tasks in different categories for different phases
+	- Combination of 2 or more IaC tools
+- procedural - step by step
+- declarative -state what youu want
+- mutable - changes
+- immutable - replacing
+- agent vs agentless
+- 

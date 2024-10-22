@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Maarek SAA/Amazon S3 Security.md",
+                "file": "Nana Terraform/Introduction to Terraform.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Maarek SAA/Amazon S3 Security.md",
+                "file": "Nana Terraform/Introduction to Terraform.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Maarek SAA/Amazon S3 Security.md",
+                "file": "Nana Terraform/Introduction to Terraform.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Maarek SAA/Amazon S3 Security.md"
+                "file": "Nana Terraform/Introduction to Terraform.md"
               }
             }
           },
@@ -156,10 +156,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d9cfcbad150bca5f",
+  "active": "6ac697c45cd775bb",
   "lastOpenFiles": [
-    "Maarek SAA/Advanced Amazon S3.md",
     "Maarek SAA/Amazon S3 Security.md",
+    "Nana Terraform/Introduction to Terraform.md",
+    "Nana Terraform",
+    "Maarek SAA/Advanced Amazon S3.md",
     "Maarek SAA/Networking - VPC.md",
     "Maarek SAA/Amazon S3 Introduction.md",
     "Maarek SAA/Pasted image 20240917184242.png",
@@ -198,7 +200,6 @@
     "Cantril SAA/Lesson Tracker.md",
     "Cantril SAA/SSL and TLS.md",
     "Cantril SAA/Pasted image 20240919212724.png",
-    "Cantril SAA/Distributed Denial of Service (DDoS) Attacks.md",
     "Maarek SAA",
     "Cantril SAA",
     "project/terraform",
