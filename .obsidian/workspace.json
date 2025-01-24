@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Nana Terraform/Introduction to Terraform.md",
+                "file": "Firewall/January 23.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Introduction to Terraform"
+              "title": "January 23"
             }
           }
         ]
@@ -73,7 +73,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -174,10 +175,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6ac697c45cd775bb",
+  "active": "8b84079e1551fbfd",
   "lastOpenFiles": [
-    "Maarek SAA/Amazon S3 Security.md",
+    "Maarek CloudFormation/AWS CloudFormation Introduction.md",
+    "Firewall/January 23.md",
     "Nana Terraform/Introduction to Terraform.md",
+    "Firewall",
+    "Maarek SAA/Amazon S3 Security.md",
     "Nana Terraform",
     "Maarek SAA/Advanced Amazon S3.md",
     "Maarek SAA/Networking - VPC.md",
@@ -208,7 +212,6 @@
     "Maarek CloudFormation/CloudFormation - Getting Started.md",
     "Nana",
     "AWS Business Essentials/Cloud Computing Fundamentals.md",
-    "Maarek CloudFormation/AWS CloudFormation Introduction.md",
     "Maarek CloudFormation",
     "Maarek DVA",
     "AWS Business Essentials",
@@ -216,11 +219,9 @@
     "Nana DevOps Bootcamp",
     "Maarek SAA/Pasted image 20240920105029.png",
     "Cantril SAA/Lesson Tracker.md",
-    "Cantril SAA/SSL and TLS.md",
     "Cantril SAA/Pasted image 20240919212724.png",
     "Maarek SAA",
     "Cantril SAA",
-    "project/terraform",
-    "project"
+    "project/terraform"
   ]
 }
