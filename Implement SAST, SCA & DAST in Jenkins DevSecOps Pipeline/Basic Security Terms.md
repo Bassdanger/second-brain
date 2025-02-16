@@ -1,0 +1,6 @@
+- SAST - Static Application Security Testing
+- SCA - Software Composition Analysis
+- DAST - Dynamic Application Security Testing
+- IAST - Interactive Application Security Testing
+- IAC - Infrastructure As Code
+- API Security - also called Security for Microservices (Microservice is a subset of API)
