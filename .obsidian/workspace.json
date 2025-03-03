@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "cv"
             }
+          },
+          {
+            "id": "68b2396820932928",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.7"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.7"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -40,7 +53,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -174,7 +188,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6ac697c45cd775bb",
+  "active": "68b2396820932928",
   "lastOpenFiles": [
     "Implement SAST, SCA & DAST in Jenkins DevSecOps Pipeline/Basic Security Terms.md",
     "OWASP/cv.md",
