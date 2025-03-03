@@ -25,12 +25,14 @@
             "id": "68b2396820932928",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.8.7"
+                "file": "Linux/Basic Commands.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.8.7"
+              "icon": "lucide-file",
+              "title": "Basic Commands"
             }
           }
         ],
@@ -190,6 +192,8 @@
   },
   "active": "68b2396820932928",
   "lastOpenFiles": [
+    "Linux/Basic Commands.md",
+    "Linux",
     "Implement SAST, SCA & DAST in Jenkins DevSecOps Pipeline/Basic Security Terms.md",
     "OWASP/cv.md",
     "OWASP",
@@ -228,14 +232,12 @@
     "Nana DevOps Bootcamp/Virtual Private Cloud (VPC).md",
     "Nana DevOps Bootcamp/Regions & Availability Zones.md",
     "Nana DevOps Bootcamp/Networking.md",
-    "Maarek CloudFormation/CloudFormation - Getting Started.md",
     "Nana",
     "Maarek CloudFormation",
     "Maarek DVA",
     "AWS Business Essentials",
     "Nana DevOps Bootcamp",
     "Maarek SAA/Pasted image 20240920105029.png",
-    "Cantril SAA/Pasted image 20240919212724.png",
-    "Maarek SAA"
+    "Cantril SAA/Pasted image 20240919212724.png"
   ]
 }
