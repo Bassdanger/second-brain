@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "Linux"
             }
+          },
+          {
+            "id": "8695c8942cd9f919",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.9"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.9"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -175,7 +188,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "68b2396820932928",
+  "active": "8695c8942cd9f919",
   "lastOpenFiles": [
     "Firewall/January 23.md",
     "Maarek CloudFormation/AWS CloudFormation Introduction.md",
