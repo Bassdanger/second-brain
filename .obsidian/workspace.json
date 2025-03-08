@@ -25,12 +25,14 @@
             "id": "8695c8942cd9f919",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.8.9"
+                "file": "Docker with Mosh/How to install Docker within a Docker container.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.8.9"
+              "icon": "lucide-file",
+              "title": "How to install Docker within a Docker container"
             }
           }
         ],
@@ -190,9 +192,10 @@
   },
   "active": "8695c8942cd9f919",
   "lastOpenFiles": [
+    "Docker with Mosh/Linux.md",
+    "Docker with Mosh/How to install Docker within a Docker container.md",
     "Firewall/January 23.md",
     "Maarek CloudFormation/AWS CloudFormation Introduction.md",
-    "Docker with Mosh/Linux.md",
     "Linux/Basic Commands.md",
     "Docker with Mosh",
     "Linux",
@@ -230,7 +233,6 @@
     "Maarek SAA/Spot Instances & Spot Fleet.md",
     "Maarek SAA/SSH Overview.md",
     "Nana DevOps Bootcamp/Virtual Private Cloud (VPC).md",
-    "Nana DevOps Bootcamp/Regions & Availability Zones.md",
     "Nana",
     "Maarek CloudFormation",
     "Maarek DVA",
