@@ -137,3 +137,49 @@
 2. `sleep 3` - prompt sleeps for 3 seconds
 3. `sleep 3 &` - sleep runs in the background so you can run other commands
 4. `kill 38` - kills process with process id (PID)
+
+**Managing Users
+1. `useradd -m john` - adds a user called "john"
+2. `cat /etc/passwd` - to see user info
+3. `usermod -s /bin/bash john` -changes the shell program
+4. `cat /etc/shadow` - passwords stored here in encrypted format
+5. new window
+6. `docker ps` 
+7. `docker exec -it <container_id> bash`
+8. `exit`
+9. `docker exec -it -u john <container_id> bash` - logs in as john
+10. `$` - means you are not a root user like `#`
+11. `cat /etc/shadow` - can't access because you don't have permissions
+12. `userdel johh` - deletes user (don't do this)
+13. `adduser bob` - cooler useradd basically that tells you more and interactive
+	1. Don't use this in Docker
+
+**Managing Groups
+1. `groupadd developers`
+2. `cat /etc/group` - to see groups
+3. `usermod -G developers john`
+4. `cat /etc/passwd | grep john` or `grep john /etc/passwd`
+5. `groups john` - to see a users groups
+
+**File Permissions
+1. `cd /home`
+2. `echo echo hello > deploy.sh`
+3. `cat deploy.sh`
+4. `ls -l`
+5. If first letter is `d`, that means it is a directory, `-` means it is a file
+6. `r` - read, `w` - write, `x` - execute
+7. first group is permissions for who owns the file,  second group is permissions for the group who owns the file, the third group is for everyone else 
+8. `./deploy.sh` - executes the file
+9. `chmod u+x deploy.sh` - adds execute permission (`chmod u-x` to remove permission)
+10. `ls -l`
+11. `./deploy.sh`
+12. switch to john terminal
+13. `cd ..`
+14. `ls -l` 
+15. `./deploy.sh`
+16. switch to root
+17. `chmod o+x deploy.sh` - allows execute permission to others
+18. switch to john
+19. `./deploy.sh`
+20. switch to root
+21. `chmod og+x+w-r deploy.sh` - gives others and groups permissions execute, write, removes read permission

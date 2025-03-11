@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docker with Mosh/How to install Docker within a Docker container.md",
+                "file": "Docker with Mosh/Docker/Building Images.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "How to install Docker within a Docker container"
+              "title": "Building Images"
             }
           }
         ],
@@ -193,6 +193,8 @@
   "active": "8695c8942cd9f919",
   "lastOpenFiles": [
     "Docker with Mosh/Linux.md",
+    "Docker with Mosh/Docker/Building Images.md",
+    "Docker with Mosh/Docker",
     "Docker with Mosh/How to install Docker within a Docker container.md",
     "Firewall/January 23.md",
     "Maarek CloudFormation/AWS CloudFormation Introduction.md",
@@ -232,11 +234,9 @@
     "Maarek SAA/Security Groups & Classic Ports Overview.md",
     "Maarek SAA/Spot Instances & Spot Fleet.md",
     "Maarek SAA/SSH Overview.md",
-    "Nana DevOps Bootcamp/Virtual Private Cloud (VPC).md",
     "Nana",
     "Maarek CloudFormation",
     "Maarek DVA",
-    "AWS Business Essentials",
     "Maarek SAA/Pasted image 20240920105029.png",
     "Cantril SAA/Pasted image 20240919212724.png"
   ]
