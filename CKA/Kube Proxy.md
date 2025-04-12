@@ -1,0 +1,3 @@
+- pod networking solution
+- can give a name and ip to a service so it can communicate using it
+- runs on each node in a kubernetes cluster, creates ip table rules to forward traffic

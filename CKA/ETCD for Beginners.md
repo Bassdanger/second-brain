@@ -1,0 +1,3 @@
+- key-value store
+- port 2379
+- ./etcdctl

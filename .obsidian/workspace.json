@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docker with Mosh/Docker/Building Images.md",
+                "file": "CKA/Pods with YAML.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Building Images"
+              "title": "Pods with YAML"
             }
           }
         ],
@@ -192,8 +192,20 @@
   },
   "active": "8695c8942cd9f919",
   "lastOpenFiles": [
-    "Docker with Mosh/Linux.md",
+    "CKA/Pods.md",
+    "CKA/Pods with YAML.md",
+    "CKA/Kube Proxy.md",
+    "CKA/Kubelet.md",
+    "CKA/Kube Scheduler.md",
+    "CKA/Kube Controller Manager.md",
+    "CKA/Kube-API server.md",
+    "CKA/ETCD in Kubernetes.md",
+    "CKA/ETCD for Beginners.md",
+    "CKA/Docker-vs-ContainerD.md",
+    "CKA/Cluster Architecture.md",
     "Docker with Mosh/Docker/Building Images.md",
+    "CKA",
+    "Docker with Mosh/Linux.md",
     "Docker with Mosh/Docker",
     "Docker with Mosh/How to install Docker within a Docker container.md",
     "Firewall/January 23.md",
@@ -220,23 +232,11 @@
     "Maarek SAA/Pasted image 20240917194612.png",
     "Maarek SAA/Pasted image 20240917192458.png",
     "Maarek SAA/Route 53.md",
-    "Maarek DVA/VPC Fundamentals.md",
-    "Maarek SAA/Classic Solutions Architecture Discussions.md",
-    "Maarek SAA/EC2 Instances Purchasing Options.md",
-    "Cantril SAA/Networking - VPC 1.md",
-    "Cantril SAA/Network Address Translation (NAT).md",
-    "Maarek SAA/EC2 Fundamentals.md",
-    "Maarek SAA/EC2 Instance Types Basics.md",
-    "Maarek SAA/IAM Guidelines & Best Practices.md",
     "Maarek SAA/Pasted image 20240917192635.png",
     "Maarek SAA/Pasted image 20240920104536.png",
     "Maarek SAA/Pasted image 20240920174949.png",
-    "Maarek SAA/Security Groups & Classic Ports Overview.md",
-    "Maarek SAA/Spot Instances & Spot Fleet.md",
-    "Maarek SAA/SSH Overview.md",
     "Nana",
     "Maarek CloudFormation",
-    "Maarek DVA",
     "Maarek SAA/Pasted image 20240920105029.png",
     "Cantril SAA/Pasted image 20240919212724.png"
   ]

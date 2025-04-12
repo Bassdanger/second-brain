@@ -1,0 +1,10 @@
+- Worker nodes - host applications as Containers
+- Master - Manage, Plan, Schedule, Monitor Nodes
+- ETCD Cluster - database that stores information 
+- kube-scheduler
+- Node-Controller
+- Replication-Controller
+- Controller-Manager
+- kube-apiserver
+- kubelet - captain
+- kube-proxy

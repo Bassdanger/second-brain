@@ -1,0 +1,6 @@
+- Controller-Manager
+- Watch Status
+- Remediate Situation
+- Node-Controller
+- Replication-Controller
+- Kube-Controller-Manger

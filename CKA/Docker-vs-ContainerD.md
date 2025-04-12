@@ -1,0 +1,6 @@
+- Container Runtime Interface (CRI)
+- Open Container Initiative (OCI)
+- dockershim
+- containerd
+- rkt
+- crictl
