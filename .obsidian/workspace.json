@@ -192,8 +192,10 @@
   },
   "active": "8695c8942cd9f919",
   "lastOpenFiles": [
-    "CKA/Pods with YAML.md",
+    "Kubernetes/Rancher Desktop.md",
     "CKA/ReplicaSets.md",
+    "Kubernetes",
+    "CKA/Pods with YAML.md",
     "CKA/Pods.md",
     "CKA/Kube Proxy.md",
     "CKA/Kubelet.md",
@@ -226,7 +228,6 @@
     "Nana Terraform",
     "Maarek SAA/Advanced Amazon S3.md",
     "Maarek SAA/Networking - VPC.md",
-    "Maarek SAA/Amazon S3 Introduction.md",
     "Maarek SAA/Pasted image 20240917184242.png",
     "Maarek SAA/Pasted image 20240917190814.png",
     "Maarek SAA/Pasted image 20240920105101.png",
@@ -236,7 +237,6 @@
     "Maarek SAA/Pasted image 20240920104536.png",
     "Maarek SAA/Pasted image 20240920174949.png",
     "Nana",
-    "Maarek CloudFormation",
     "Maarek SAA/Pasted image 20240920105029.png",
     "Cantril SAA/Pasted image 20240919212724.png"
   ]
