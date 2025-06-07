@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kubernetes/Tips and Tricks.md",
+                "file": "Kubernetes/Pods.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Tips and Tricks"
+              "title": "Pods"
             }
           }
         ]
@@ -177,8 +177,9 @@
   },
   "active": "68b2396820932928",
   "lastOpenFiles": [
-    "Kubernetes/What is kubernetes.md",
     "Kubernetes/Tips and Tricks.md",
+    "Kubernetes/Pods.md",
+    "Kubernetes/What is kubernetes.md",
     "2025-02-15.md",
     "Untitled.canvas",
     "CKA/ReplicaSets.md",
@@ -211,7 +212,6 @@
     "Implement SAST, SCA & DAST in Jenkins DevSecOps Pipeline",
     "Nana Terraform/Introduction to Terraform.md",
     "Firewall",
-    "Maarek SAA/Amazon S3 Security.md",
     "Nana Terraform",
     "Maarek SAA/Pasted image 20240917184242.png",
     "Maarek SAA/Pasted image 20240917190814.png",
