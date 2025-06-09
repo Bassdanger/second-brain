@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kubernetes/Kubectx.md",
+                "file": "Kubernetes/Tips and Tricks.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Kubectx"
+              "title": "Tips and Tricks"
             }
           }
         ]
@@ -177,11 +177,12 @@
   },
   "active": "68b2396820932928",
   "lastOpenFiles": [
-    "Kubernetes/Pods.md",
-    "Kubernetes/Kubectx.md",
+    "Kubernetes/Dry run.md",
     "Kubernetes/Tips and Tricks.md",
-    "Kubernetes/EKS Destroy.md",
     "Kubernetes/What is kubernetes.md",
+    "Kubernetes/Kubectx.md",
+    "Kubernetes/Pods.md",
+    "Kubernetes/EKS Destroy.md",
     "2025-02-15.md",
     "Untitled.canvas",
     "CKA/ReplicaSets.md",
@@ -208,7 +209,6 @@
     "Linux/Basic Commands.md",
     "Docker with Mosh",
     "Linux",
-    "Implement SAST, SCA & DAST in Jenkins DevSecOps Pipeline/Basic Security Terms.md",
     "OWASP",
     "Implement SAST, SCA & DAST in Jenkins DevSecOps Pipeline",
     "Firewall",
