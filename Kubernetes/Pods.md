@@ -8,3 +8,6 @@ A pod is a collection of containers + other resources
 - Initcontainer
 - Networking
 - Storage
+
+k exec -it nginx-docs -- /bin/sh
+k get pods -o wide

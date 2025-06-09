@@ -6,5 +6,6 @@ TAB TAB for info
  k get -h | less pipes to less editor
  in vim or less, type /{search-terem} to quickly search
 	 "n" to go to next, "N" to go to previous
-
- 
+in vim, :set paste lets you paste with CTRL + V
+CTRL + D to get out of shell terminal
+ cat /etc/os-release to see operating system
