@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kubernetes/Tips and Tricks.md",
+                "file": "Kubernetes/Deployments.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Tips and Tricks"
+              "title": "Deployments"
             }
           }
         ]
@@ -177,8 +177,9 @@
   },
   "active": "68b2396820932928",
   "lastOpenFiles": [
-    "Kubernetes/Deployments.md",
+    "Kubernetes/Namespaces.md",
     "Kubernetes/Tips and Tricks.md",
+    "Kubernetes/Deployments.md",
     "Kubernetes/Pods.md",
     "Kubernetes/Dry run.md",
     "Kubernetes/EKS Destroy.md",
@@ -206,7 +207,6 @@
     "Docker with Mosh/Docker",
     "Docker with Mosh/How to install Docker within a Docker container.md",
     "Firewall/January 23.md",
-    "Maarek CloudFormation/AWS CloudFormation Introduction.md",
     "Docker with Mosh",
     "Linux",
     "OWASP",
