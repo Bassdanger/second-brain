@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kubernetes/Deployments.md",
+                "file": "Kubernetes/Networking.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Deployments"
+              "title": "Networking"
             }
           }
         ]
@@ -177,9 +177,10 @@
   },
   "active": "68b2396820932928",
   "lastOpenFiles": [
+    "Kubernetes/Deployments.md",
+    "Kubernetes/Networking.md",
     "Kubernetes/Namespaces.md",
     "Kubernetes/Tips and Tricks.md",
-    "Kubernetes/Deployments.md",
     "Kubernetes/Pods.md",
     "Kubernetes/Dry run.md",
     "Kubernetes/EKS Destroy.md",
@@ -206,7 +207,6 @@
     "Docker with Mosh/Linux.md",
     "Docker with Mosh/Docker",
     "Docker with Mosh/How to install Docker within a Docker container.md",
-    "Firewall/January 23.md",
     "Docker with Mosh",
     "Linux",
     "OWASP",
