@@ -1,0 +1,1 @@
+k port-forward pods/mealie-955d79855-rsxsl 9000
