@@ -25,4 +25,4 @@ download configuration
 find shared in file
 pre-shared-key
 
-![[Pasted image 20250610212043.png]]
+![[Pasted image 20250610212043.png]]remote-as

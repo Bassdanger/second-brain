@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "VPN"
             }
+          },
+          {
+            "id": "8ceb08926899f047",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.10"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.10"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -175,7 +188,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "68b2396820932928",
+  "active": "8ceb08926899f047",
   "lastOpenFiles": [
     "VPN/Pasted image 20250610212043.png",
     "VPN/Pasted image 20250610204113.png",
