@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kubernetes/Ingress.md",
+                "file": "Kubernetes/Ephemeral Storage.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Ingress"
+              "title": "Ephemeral Storage"
             }
           }
         ],
@@ -192,8 +192,9 @@
   },
   "active": "8ceb08926899f047",
   "lastOpenFiles": [
-    "Kubernetes/Services.md",
     "Kubernetes/Ingress.md",
+    "Kubernetes/Ephemeral Storage.md",
+    "Kubernetes/Services.md",
     "Kubernetes/Deployments.md",
     "Kubernetes/Tips and Tricks.md",
     "Kubernetes/Networking.md",
@@ -229,7 +230,6 @@
     "CKA/Kube Controller Manager.md",
     "CKA/Kube-API server.md",
     "CKA/ETCD for Beginners.md",
-    "CKA/Docker-vs-ContainerD.md",
     "CKA",
     "Docker with Mosh/Docker",
     "Docker with Mosh",
