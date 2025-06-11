@@ -25,12 +25,14 @@
             "id": "8ceb08926899f047",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.8.10"
+                "file": "Kubernetes/Ingress.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.8.10"
+              "icon": "lucide-file",
+              "title": "Ingress"
             }
           }
         ],
@@ -190,6 +192,11 @@
   },
   "active": "8ceb08926899f047",
   "lastOpenFiles": [
+    "Kubernetes/Services.md",
+    "Kubernetes/Ingress.md",
+    "Kubernetes/Deployments.md",
+    "Kubernetes/Tips and Tricks.md",
+    "Kubernetes/Networking.md",
     "VPN/Pasted image 20250610212043.png",
     "VPN/Pasted image 20250610204113.png",
     "VPN/Pasted image 20250610203707.png",
@@ -204,10 +211,7 @@
     "VPN",
     "CKA/Kubelet.md",
     "CKA/ETCD in Kubernetes.md",
-    "Kubernetes/Networking.md",
-    "Kubernetes/Deployments.md",
     "Kubernetes/Namespaces.md",
-    "Kubernetes/Tips and Tricks.md",
     "Kubernetes/Pods.md",
     "Kubernetes/Dry run.md",
     "Kubernetes/EKS Destroy.md",
@@ -226,7 +230,6 @@
     "CKA/Kube-API server.md",
     "CKA/ETCD for Beginners.md",
     "CKA/Docker-vs-ContainerD.md",
-    "CKA/Cluster Architecture.md",
     "CKA",
     "Docker with Mosh/Docker",
     "Docker with Mosh",
@@ -235,7 +238,6 @@
     "Implement SAST, SCA & DAST in Jenkins DevSecOps Pipeline",
     "Firewall",
     "Nana Terraform",
-    "Maarek SAA/Pasted image 20240917184242.png",
-    "Maarek SAA/Pasted image 20240917190814.png"
+    "Maarek SAA/Pasted image 20240917184242.png"
   ]
 }

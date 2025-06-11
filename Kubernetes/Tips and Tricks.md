@@ -13,3 +13,5 @@ CTRL + D to get out of shell terminal
  watch -n 1 "kubectl get pods" lets you watch in real time
  press "u" in vim to undo
  mv * deployment/ moves all files to folder in same level
+ in vim, :%s/test/frontend/g replaces all tests with frontend, can use it with different words to replace
+ 
