@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kubernetes/Helm.md",
+                "file": "Kubernetes/Monitoring.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Helm"
+              "title": "Monitoring"
             }
           }
         ],
@@ -193,12 +193,13 @@
   "active": "8ceb08926899f047",
   "lastOpenFiles": [
     "Kubernetes/K9s.md",
+    "Kubernetes/Monitoring.md",
+    "Kubernetes/Deployments.md",
     "Kubernetes/Helm.md",
     "Kubernetes/Persistent Storage.md",
     "Kubernetes/Ephemeral Storage.md",
     "Kubernetes/Ingress.md",
     "Kubernetes/Services.md",
-    "Kubernetes/Deployments.md",
     "Kubernetes/Tips and Tricks.md",
     "Kubernetes/Networking.md",
     "VPN/Pasted image 20250610212043.png",
@@ -229,7 +230,6 @@
     "CKA/Pods with YAML.md",
     "CKA/Pods.md",
     "CKA/Kube Proxy.md",
-    "CKA/Kube Scheduler.md",
     "CKA",
     "Docker with Mosh/Docker",
     "Docker with Mosh",
