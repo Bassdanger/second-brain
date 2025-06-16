@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kubernetes/Monitoring.md",
+                "file": "Arch Linux/Disk Partitioning.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Monitoring"
+              "title": "Disk Partitioning"
             }
           }
         ],
@@ -192,8 +192,10 @@
   },
   "active": "8ceb08926899f047",
   "lastOpenFiles": [
-    "Kubernetes/K9s.md",
     "Kubernetes/Monitoring.md",
+    "Arch Linux/Disk Partitioning.md",
+    "Arch Linux",
+    "Kubernetes/K9s.md",
     "Kubernetes/Deployments.md",
     "Kubernetes/Helm.md",
     "Kubernetes/Persistent Storage.md",
@@ -229,7 +231,6 @@
     "Kubernetes",
     "CKA/Pods with YAML.md",
     "CKA/Pods.md",
-    "CKA/Kube Proxy.md",
     "CKA",
     "Docker with Mosh/Docker",
     "Docker with Mosh",
@@ -237,7 +238,6 @@
     "OWASP",
     "Implement SAST, SCA & DAST in Jenkins DevSecOps Pipeline",
     "Firewall",
-    "Nana Terraform",
     "Maarek SAA/Pasted image 20240917184242.png"
   ]
 }
