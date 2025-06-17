@@ -14,4 +14,4 @@ CTRL + D to get out of shell terminal
  press "u" in vim to undo
  mv * deployment/ moves all files to folder in same level
  in vim, :%s/test/frontend/g replaces all tests with frontend, can use it with different words to replace
- 
+ yy to yank in vim
