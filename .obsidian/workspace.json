@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kubernetes/GitOps.md",
+                "file": "GCP/VPC Peering worksheet.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "GitOps"
+              "title": "VPC Peering worksheet"
             }
           }
         ],
@@ -192,13 +192,20 @@
   },
   "active": "8ceb08926899f047",
   "lastOpenFiles": [
+    "GCP/VPC VPN peering.md",
+    "GCP/VPC Peering worksheet.md",
+    "Kubernetes/K9s.md",
+    "GCP",
+    "Untitled",
+    "Kubernetes/Untitled.md",
     "Kubernetes/Tips and Tricks.md",
+    "Kubernetes/Deployments.md",
+    "VPN/VPN.md",
+    "Kubernetes/Pods.md",
     "Kubernetes/GitOps.md",
     "Arch Linux/Disk Partitioning.md",
     "Kubernetes/Monitoring.md",
     "Arch Linux",
-    "Kubernetes/K9s.md",
-    "Kubernetes/Deployments.md",
     "Kubernetes/Helm.md",
     "Kubernetes/Persistent Storage.md",
     "Kubernetes/Ephemeral Storage.md",
@@ -215,29 +222,22 @@
     "VPN/Pasted image 20250610202903.png",
     "VPN/Pasted image 20250610202704.png",
     "Implement SAST, SCA & DAST in Jenkins DevSecOps Pipeline/Basic Security Terms.md",
-    "VPN/VPN.md",
     "VPN",
     "CKA/Kubelet.md",
     "CKA/ETCD in Kubernetes.md",
     "Kubernetes/Namespaces.md",
-    "Kubernetes/Pods.md",
     "Kubernetes/Dry run.md",
     "Kubernetes/EKS Destroy.md",
     "Kubernetes/What is kubernetes.md",
     "Kubernetes/Kubectx.md",
     "2025-02-15.md",
     "Untitled.canvas",
-    "CKA/ReplicaSets.md",
-    "Kubernetes/Rancher Desktop.md",
     "Kubernetes",
-    "CKA/Pods with YAML.md",
     "CKA",
     "Docker with Mosh/Docker",
     "Docker with Mosh",
     "Linux",
     "OWASP",
-    "Implement SAST, SCA & DAST in Jenkins DevSecOps Pipeline",
-    "Firewall",
     "Maarek SAA/Pasted image 20240917184242.png"
   ]
 }
